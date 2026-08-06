@@ -6,6 +6,10 @@ A data engineering pipeline built entirely within the **Databricks**. This proje
 2. **Silver (Cleaned)**: Restructures the matrix from a wide schema into a long-form format using PySpark `unpivot` for optimal querying.
 3. **Gold (Analytics)**: Computes a 10-year rolling moving average using SQL window functions to smooth out seasonal noise.
 
+Example output:
+
+<img width="818" height="430" alt="Screenshot 2026-08-06 at 20 50 48" src="https://github.com/user-attachments/assets/5b522edf-c7c0-4d60-bff4-64d143270913" />
+
 ## How to Run 
 
 1. Import the notebooks into your **Databricks Git Folder**.
